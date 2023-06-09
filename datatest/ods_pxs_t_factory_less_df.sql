@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS `px_ods`.`ods_pxs_t_factory_less_df`;
 
 CREATE TABLE IF NOT EXISTS `px_ods`.`ods_pxs_t_factory_less_df`(
- `id`							bigint			comment	 '主键'
+ `id`   							bigint			comment	 '主键'
 ,`enterprise_id`				bigint			comment	 '企业ID'
 ,`commodity_id`					bigint			comment	 '商品ID'
 ,`commodity_code`				string			comment	 '商品编码'
